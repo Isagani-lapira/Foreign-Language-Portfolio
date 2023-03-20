@@ -1,0 +1,366 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Foreign Language</title>
+
+    <link rel="stylesheet" href="style.css" />
+
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65"
+      crossorigin="anonymous"
+    />
+
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Corinthia&family=Dancing+Script:wght@500&family=Exo+2:wght@700&family=Fasthand&family=Freehand&family=Montserrat:ital,wght@0,400;0,700;1,400;1,600;1,700;1,800&family=Poppins:ital,wght@0,400;0,700;1,400&family=Roboto:wght@300;400;500&family=Source+Sans+Pro:ital@1&display=swap" rel="stylesheet">
+
+  </head>
+  <body>
+    <nav class="navbar" style="background-color: #2c3333">
+      <div class="container-fluid">
+        <a class="navbar-brand text-light" href="#" id="fullname">Lapira Jr. Isagani T.</a>
+      </div>
+    </nav>
+
+    <div class="container-fluid p-5 heading">
+      <h1 class="text-dark text-end">A new language is a new life</h1>
+      <h2 class="text-end">一门新的语言是一种新的生活。</h2>
+
+      <h2 class="text-dark">Isagani T. Lapira Jr.</h2>
+      <h2 class="text-dark">BSIT-3EG1</h2>
+      <div class="container d-flex">
+        <img class="img-fluid" src="images/profile.jpg" alt="" />
+        <div class="container">
+          <p class="text-bg-dark w-50 p-2 text-light opacity-50 rounded-2">
+            Wo xing lapira, Lapira Jr. Isagani T. </br>
+            Wo zhu zai Bulacan, Malolos City, Mabolo, 56 Vinta Street.
+            Wo laizi BSIT-3EG1 zai Bulacan State University he wo aihao da lanqui he coding.
+            Wǒ xiǎng chéngwéi yī míng chéngxù yuán bìng chuàngjiàn hěnduō yóuxì
+
+          </p>
+        </div>
+      </div>
+    </div>
+
+    
+    <!-- my works midterm-->
+    <div class="d-block p-5 works">
+      <h1 class="text-center fw-bolder">My Works</h1>
+      <div class="container mb-2 underLineWork"></div>
+
+      <select class="d-block ms-auto px-3 py-1 rounded-2 text-light" id="sem" onchange="changeSem()">
+        <option value="first_sem">First Sem</option>
+        <option value="second_sem">Second Sem</option>
+      </select>
+
+        <!-- first sem container -->
+        <div class="container-fluid first-sem" id="firstSem">
+            <!-- activity 1 to 4 -->
+            <div class="row ms-auto me-auto mt-5">
+                <!-- act1 -->
+                <div class="col bg-light m-1 p-2 actt rounded">
+                    <video class="rounded" src="activity/ac1.mp4" controls></video>
+                    <p class="fw-bold text-center">Activity 1</p>
+                    <p class="fw-bold text-center">Writing "Nǐ hǎo" in Hanzi character</p>
+                    <div class="container mb-2"></div>
+                    <p class="text-center">
+                        Try now to practice Hanzi character writing. First, watch the video
+                        on how to properly write the characters for the Pinyin "Nǐ hǎo".
+                        Then, practice writing the characters based on what you have learned
+                        from the video. After several practices, get a clean bond paper and
+                        marker. While you are writing the characters, record a short video.
+                    </p>
+                </div>
+
+                <!-- act 2 -->
+                <div class="col bg-light m-1 p-2 actt rounded">
+                    <audio src="activity/act2.mp3" controls></audio>
+                    <p class="fw-bold text-center">Activity 2</p>
+                    <p class="fw-bold text-center">Practicing Pronounciation</p>
+                    <div class="container mb-2"></div>
+                    <p class="text-center">
+                        ISTENING LISTENING and SPEAKING Activity. Listen to the given audio
+                        files (FL 310 Class Site). Practice the correct pronunciation of the
+                        Mandarin phases and record your own audio file reciting the five
+                        phrases. Save your audio file.
+                    </p>
+                </div>
+
+                <!-- act 3 -->
+                <div class="col bg-light m-1 p-2 actt rounded">
+                    <video class="rounded" src="activity/act3.mp4" controls></video>
+                    <p class="fw-bold text-center">Activity 3</p>
+                    <p class="fw-bold text-center">Introduce Yourself in Mandarin</p>
+                    <div class="container mb-2"></div>
+                    <p class="text-center">
+                        Get Get a partner from your FL 301 classmates. Watch the video on
+                        "How to Introduce Yourself in Mandarin?" on FL 301 Class Site. Based
+                        on the video and UNIT 1 lessons that you have learned, do your
+                        virtual conversation through Google Meet/Zoom/MS Teams Meeting/
+                        FaceTime/ FB Messenger, etc.
+                    </p>
+                </div>
+
+                <!-- act 4 -->
+                <div class="col bg-light m-1 p-2 actt rounded">
+                    <video class="rounded" src="activity/act4.mp4" controls></video>
+                    <p class="fw-bold text-center">Activity 4</p>
+                    <p class="fw-bold text-center">Introduce your friend</p>
+                    <div class="container mb-2"></div>
+                    <p class="text-center">
+                        Record Record a short video wherein you are going to show a picture
+                        of your best friend. Introduce your best friend and tell us
+                        something about him/her. Also, share with us what ball game is
+                        he/she interested to play and/or what language does he/she is
+                        interested to study. You may include other related contents. Please
+                        ensure that your video will not exceed 2 minutes.
+                    </p>
+                </div>
+            </div>
+
+            <!-- activity 5 to 8 -->
+            <div class="row ms-auto me-auto mt-5">
+                <!-- activity 5 -->
+                <div class="col bg-light m-1 p-2 actt rounded">
+                    <video class="rounded" src="activity/act5.mp4" controls></video>
+                    <p class="fw-bold text-center">Activity 5</p>
+                    <p class="fw-bold text-center">Happy Birthday in Mandarin</p>
+                    <div class="container mb-2"></div>
+                    <p class="text-center">
+                        GetUsing a piece of bond paper and a board marker, write the Hanzi
+                        characters for "Happy birthday!". Record a video while you are
+                        writing the Hanzi characters and show your output. Greet your friend
+                        or relative (in Mandarin) who will be celebrating his/her birthday
+                        this October to December.
+                    </p>
+                </div>
+
+                <!-- activity 6 -->
+                <div class="col bg-light m-1 p-2 actt rounded" onclick="rar()">
+                    <img src="activity/act6.png" alt="" />
+                    <p class="fw-bold text-center">Activity 6</p>
+                    <p class="fw-bold text-center">Short Diary in Mandarin</p>
+                    <div class="container mb-2"></div>
+                    <p class="text-center">
+                        Using Using Canva templates, write your own short diary with 10-15
+                        Mandarin sentences (Pinyin). You may omit the tone symbols for this
+                        activity. Be creative and artistic with your output. You may write
+                        about your birthday celebrations , Christmas or New Year's
+                        gatherings, or you may just share your experiences during your
+                        vacation.
+                    </p>
+                    <button type="button" class="btn btn-success d-block ms-auto me-auto" data-bs-toggle="modal" data-bs-target="#diary">
+                        View clearly
+                    </button>
+                </div>
+
+                <!-- activity 7 -->
+                <div class="col bg-light m-1 p-2 actt rounded">
+                    <img src="activity/act7.jpg" alt="" />
+                    <p class="fw-bold text-center">Activity 7</p>
+                    <p class="fw-bold text-center">Family Tree</p>
+                    <div class="container mb-2"></div>
+                    <p class="text-center">
+                        using Canva, create your family tree and label each member properly.
+                        Download your output as JPEG and use proper filename format. Upload
+                        it through the attached folder link below.
+                    </p>
+
+                    <button type="button" class="btn btn-success d-block ms-auto me-auto" data-bs-toggle="modal" data-bs-target="#familyTree">
+                        View clearly
+                    </button>
+                </div>
+
+                <!-- activity 8 -->
+                <div class="col bg-light m-1 p-2 actt rounded">
+                    <video class="rounded" src="activity/act8.mp4" controls></video>
+                    <p class="fw-bold text-center">Activity 8</p>
+                    <p class="fw-bold text-center">How to order at McDonald's</p>
+                    <div class="container mb-2"></div>
+                    <p class="text-center">
+                        Using Get a partner from your classmates. Watch the video "How to
+                        Order at Mc Donald's" on our FL 301 Class Site. . Based on this
+                        video and UNIT 3 lessons that you have learned, do your virtual
+                        conversation. Be sure to record your conversation using screen
+                        recording (or using any video recording features depending on the
+                        app that you prefer to use). One of you will act as the CUSTOMER and
+                        the other one will be the Mc Donald's CREW.
+                    </p>
+                </div>
+            </div><!-- end of 2nd row -->
+            
+            <div class="container-fluid first-sem mt-5">
+                <div class="container">
+                    <h2 class="text-center p-2 fw-bold rounded-3" style="background-color: #0e8388;">FirstSem Project</h2>
+                    <video class="d-block rounded w-50 ms-auto me-auto" src="activity/fl-1.mp4" controls></video>
+                </div>
+            </div>
+            
+        </div> <!-- end of 1st sem -->
+
+    
+
+        <!-- Second sem container -->
+        <div class="container-fluid" id="secondSem" style="display: none;">
+            <div class="row ms-auto me-auto mt-5">
+                <!-- act1 -->
+                <div class="col bg-light m-1 p-2 actt rounded">
+                    <video class="rounded" src="activity/act1-second.mp4" controls></video>
+                    <p class="fw-bold text-center">Activity 1</p>
+                    <p class="fw-bold text-center">Job Interview (Role Playing)</p>
+                    <div class="container mb-2"></div>
+                    <p class="text-center">
+                        Job interview is very important when you will be starting your career. 
+                         Even when seeking for company to have your internship or on-the-job-training (OJT), 
+                         you will undergo interview.  Get your partner and watch the video.  
+                         Practice and do the role playing for the job interview in Mandarin.
+                    </p>
+                </div>
+
+                <!-- act2 -->
+                <div class="col bg-light m-1 p-2 actt rounded">
+                    <img src="activity/act2-second.jpg" alt="" />
+                    <p class="fw-bold text-center">Activity 2</p>
+                    <p class="fw-bold text-center">Hanzi Character Writing and Recognition</p>
+                    <div class="container mb-2"></div>
+                    <p class="text-center">
+                        Watch the video several times and try to recognize and write the Hanzi 
+                        characters and the English meaning using the Hanzi Table.
+                    </p>
+
+                    <button type="button" class="btn btn-success d-block ms-auto me-auto" data-bs-toggle="modal" data-bs-target="#hanziChar">
+                        View clearly
+                    </button>
+                </div>
+
+                <!-- act3 -->
+                <div class="col bg-light m-1 p-2 actt rounded">
+                    <video class="rounded" src="activity/act3-second.mp4" controls></video>
+                    <p class="fw-bold text-center">Activity 3</p>
+                    <p class="fw-bold text-center">Daily Routine in Mandarin</p>
+                    <div class="container mb-2"></div>
+                    <p class="text-center">
+                        Tell us your daily routine in Mandarin.  Create a short 
+                        video which will show us what your daily routine.  Include the 
+                        time when you are performing each task.  You can use images or 
+                        picture to illustrate your routine.  You may use either your own 
+                        pictures or images from the internet.  Be sure to acknowledge or 
+                        give credits to pictures you don't own.  You have to use your own 
+                        voice for the narration of your daily routine.
+                    </p>
+                </div>
+
+                <!-- act4 -->
+                <div class="col bg-light m-1 p-2 actt rounded">
+                    <img src="activity/act4-second.jpg" alt="" />
+                    <p class="fw-bold text-center">Activity 4</p>
+                    <p class="fw-bold text-center">Comic Script/Strip</p>
+                    <div class="container mb-2"></div>
+                    <p class="text-center">
+                        Using CANVA template, make a creative comic script/strip 
+                        based Lessons 22-24.  You may write your own script and 
+                        include your own choice of characters.  Consider the proper 
+                        filename format as instructed by your professor.
+                    </p>
+                    <button type="button" class="btn btn-success d-block ms-auto me-auto" data-bs-toggle="modal" data-bs-target="#comicStrip">
+                        View clearly
+                    </button>
+                    
+                </div>
+                
+            </div> <!--end of row-->
+
+        </div> <!-- end of second sem -->
+        
+
+    </div>
+
+
+    <!-- modal -->
+    <div class="modal fade" id="diary" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+            <h1 class="modal-title fs-5" id="exampleModalLabel">Short Diary in Mandarin</h1>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <img src="activity/act6.png" class="img-fluid" alt="" />
+            </div>
+            <div class="modal-footer">
+            <button type="button" class="btn btn-primary" data-bs-dismiss="modal">Close</button>
+            </div>
+        </div>
+        </div>
+    </div>
+
+    <!-- family tree modal -->
+    <div class="modal fade" id="familyTree" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+            <h1 class="modal-title fs-5" id="exampleModalLabel">Family Tree</h1>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <img src="activity/act7.jpg" class="img-fluid" alt="" />
+            </div>
+            <div class="modal-footer">
+            <button type="button" class="btn btn-primary" data-bs-dismiss="modal">Close</button>
+            </div>
+        </div>
+        </div>
+    </div>
+
+    <!-- Hanzi Character modal -->
+    <div class="modal fade" id="hanziChar" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+            <h1 class="modal-title fs-5" id="exampleModalLabel">Hanzi Character </h1>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <img src="activity/act2-second.jpg" class="img-fluid" alt="" />
+            </div>
+            <div class="modal-footer">
+            <button type="button" class="btn btn-primary" data-bs-dismiss="modal">Close</button>
+            </div>
+        </div>
+        </div>
+    </div>
+
+    <!-- Comic Strip/Script modal -->
+    <div class="modal fade" id="comicStrip" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+            <h1 class="modal-title fs-5" id="exampleModalLabel">Comic Script/Strip </h1>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <img src="activity/act4-second.jpg" class="img-fluid" alt="" />
+            </div>
+            <div class="modal-footer">
+            <button type="button" class="btn btn-primary" data-bs-dismiss="modal">Close</button>
+            </div>
+        </div>
+        </div>
+    </div>
+
+    <!-- js bootstrap -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
+      crossorigin="anonymous"
+    ></script>
+
+    <script src="script.js"></script>
+  </body>
+</html>
